@@ -76,13 +76,16 @@ while(res != 0){
     switch(res){
         case 1:
             cadastrar()
+            reload()
             break;
         case 2:
             alterar()
+            reload()
             break;
         case 3:
             username = prompt("Escolha o usuário para remover: ")
             apagarCookie(username);
+            reload()
             break;
         default:
             reload()
