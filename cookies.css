@@ -3,12 +3,12 @@
 }
 .div{
     background-color:rgb(111, 111, 111);
-    height: 500px;
+    height: 120px;
     width: 500px;
     margin: auto;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px rgb(179, 179, 179);
+    box-shadow: 5px 5px 5px rgb(179, 179, 179);
     padding-top: 10px;
 }
 .texto{
