@@ -72,7 +72,7 @@ function cadastrar(){
 
 var res = 1
 while(res != 0){
-    res = parseInt(prompt(`Insira a opção que deseja: \n[1] Cadastrar\n[2] Alterar Login/Senha\n[3] Finalizar sessão\n[4] Atualizar`))
+    res = parseInt(prompt(`Insira a opção que deseja: \n[1] Cadastrar\n[2] Alterar Login/Senha\n[3] Remover Usuário\n[4] Atualizar`))
     switch(res){
         case 1:
             cadastrar()
@@ -81,7 +81,7 @@ while(res != 0){
             alterar()
             break;
         case 3:
-            username = prompt("USERNAME DELETADO SERÁ: ")
+            username = prompt("Escolha o usuário para remover: ")
             apagarCookie(username);
             break;
         default:
